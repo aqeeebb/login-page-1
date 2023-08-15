@@ -1,6 +1,5 @@
 
-## Screenshot of the website
-![image](https://github.com/Debaditya-Som/login-page-1/assets/121785700/fc23687c-6187-4283-9467-af11ca2a6ba4)
+
 
 
 
