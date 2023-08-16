@@ -36,12 +36,7 @@ body {
     transition : 0.25s;
 }
 
-/*.design .pill-2:hover{
-    background: linear-gradient(#ff966d, #fa538d, #89379c);
-    background-size: 200% 200%;
-    animation: change 5s ease-in-out infinite;
-}
-*/
+
 .rotate-45 {
     transform: rotate(-45deg);
 }
