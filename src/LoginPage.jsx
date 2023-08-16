@@ -8,7 +8,7 @@ const LoginPage = () => {
         <div className="pill-1 rotate-45"></div>
         <div className="pill-2 rotate-45"></div>
         <div className="pill-3 rotate-45"></div>
-        <div className="pill-4 rotate-45"></div>
+        
       </div>
       <div className="login">
         <h3 className="title">User Login</h3>
