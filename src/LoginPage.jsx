@@ -1,5 +1,5 @@
 import React from 'react';
-import './Lstyles.css'; // Make sure to import your CSS file
+import './Lstyles.css'; 
 
 const LoginPage = () => {
   return (
