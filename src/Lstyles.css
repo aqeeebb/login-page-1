@@ -70,6 +70,10 @@ body {
     
 }
 
+img{
+    width: 50vw;
+    height: 60vh;
+}
 .design .pill-4 {
     bottom: -185px;
     left: 220px;
