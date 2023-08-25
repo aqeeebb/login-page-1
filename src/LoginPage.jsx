@@ -1,15 +1,15 @@
 import React from 'react';
-import './Lstyles.css'; // Make sure to import your CSS file
+import './Lstyles.css'; 
 
 const LoginPage = () => {
   return (
     <div className="container">
-      <div className="design">
-        <div className="pill-1 rotate-45"></div>
-        <div className="pill-2 rotate-45"></div>
-        <div className="pill-3 rotate-45"></div>
-        
-      </div>
+       
+        <img
+        src="https://static.vecteezy.com/system/resources/previews/008/944/912/original/mint-green-background-concept-free-vector.jpg"
+        alt="Sample Image"
+      />
+      
       <div className="login">
         <h3 className="title">User Login</h3>
         <div className="text-input">
