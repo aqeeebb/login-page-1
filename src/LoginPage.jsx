@@ -1,14 +1,12 @@
 import React from 'react';
 import './Lstyles.css'; 
-
+import bg1 from './assets/bg1.jpg'
 const LoginPage = () => {
   return (
     <div className="container">
        
         <img
-        src="https://static.vecteezy.com/system/resources/previews/008/944/912/original/mint-green-background-concept-free-vector.jpg"
-        alt="Sample Image"
-      />
+        src={bg1} alt="Graphics Image" />
       
       <div className="login">
         <h3 className="title">User Login</h3>

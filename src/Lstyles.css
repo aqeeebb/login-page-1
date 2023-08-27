@@ -11,7 +11,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to bottom left, #6294e5, #90f6f6,#E0FFFF,white);
+    background: linear-gradient(to bottom left,#000235,#77438B, #ad78c2,#85D5F2);
     background-size: 200% 200%;
     position: relative;
     animation: change 5s ease-in-out infinite;
@@ -25,7 +25,7 @@ body {
     grid-template-areas: "login";
     box-shadow: 0 0 17px 10px rgb(0 0 0 / 30%);
     border-radius: 20px;
-    background: white;
+    background: rgba(255, 255, 255, 0.584);
     overflow: hidden;
 }
 
@@ -36,53 +36,15 @@ body {
     transition : 0.25s;
 }
 
-/*.design .pill-2:hover{
-    background: linear-gradient(#ff966d, #fa538d, #89379c);
-    background-size: 200% 200%;
-    animation: change 5s ease-in-out infinite;
-}
-*/
 .rotate-45 {
     transform: rotate(-45deg);
-}
-
-
-
-.design .pill-2 {
-    top: -100px;
-    left: -80px;
-    position: absolute;
-    height: 450px;
-    width: 220px;
-    background: linear-gradient(#9bebeb,#50c878e8);
-    border-radius: 200px;
-    border: 30px solid #ffffff;
-}
-
-.design .pill-3 {
-    top: -100px;
-    left: 160px;
-    position: absolute;
-    height: 200px;
-    width: 100px;
-    background: linear-gradient(#9bebeb,#50c878d2);
-    border-radius: 70px;
-    
 }
 
 img{
     width: 50vw;
     height: 60vh;
 }
-.design .pill-4 {
-    bottom: -185px;
-    left: 220px;
-    position: absolute;
-    height: 300px;
-    width: 120px;
-    background: linear-gradient(#ffffff,#f8f8f8);
-    border-radius: 80px;
-}
+
 
 .login {
     grid-area: login;
@@ -135,7 +97,7 @@ img{
     width: 68%;
     padding: 10px;
     color: white;
-    background: linear-gradient(to right, #06e0e0,#2887c2,rgb(9, 134, 231));
+    background: linear-gradient(to right, #ad78c2,#77438B,#000235);
     background-size: 400% 400%;
     border: none;
     border-radius: 20px;
