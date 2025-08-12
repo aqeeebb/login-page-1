@@ -1,43 +1,50 @@
-import React from 'react';
-import './Lstyles.css'; 
-import bg1 from './assets/bg1.jpg';
+import React from "react";
+import { Link } from "react-router-dom"; // Use Link for SPA navigation
+import "./Lstyles.css";
+import bg1 from "./assets/bg1.jpg";
 
 const LoginPage = () => {
   return (
     <div className="container">
-      {/* Fixed alt text: Removed the word "Image" */}
-      <img
-        src={bg1}
-        alt="Login page background"
-      />
+      {/* Background image with better alt text */}
+      <img src={bg1} alt="Background for login page" />
 
       <div className="login">
         <h3 className="title">User Login</h3>
-        
+
+        {/* Username input */}
         <div className="text-input">
           <i className="ri-user-fill"></i>
-          <input type="text" placeholder="Username" />
+          <label htmlFor="username" className="sr-only">
+            Username
+          </label>
+          <input id="username" type="text" placeholder="Username" />
         </div>
-        
+
+        {/* Password input */}
         <div className="text-input">
           <i className="ri-lock-fill"></i>
-          <input type="password" placeholder="Password" />
+          <label htmlFor="password" className="sr-only">
+            Password
+          </label>
+          <input id="password" type="password" placeholder="Password" />
         </div>
-        
+
         <button className="login-btn">LOGIN</button>
-        
-        {/* Fixed invalid href: changed to a button for non-navigation */}
+
+        {/* Forgot password as a button */}
         <button
           className="forgot"
-          onClick={() => alert("Forgot password flow not implemented yet")}
-          style={{ background: "none", border: "none", color: "blue", cursor: "pointer", padding: 0 }}
+          onClick={() =>
+            alert("Forgot password feature is not implemented yet.")
+          }
         >
           Forgot Username/Password?
         </button>
-        
+
         <div className="create">
-          {/* Changed to a real route link (can adjust as per your app) */}
-          <a href="/signup">Create Your Account</a>
+          {/* SPA link for account creation */}
+          <Link to="/signup">Create Your Account</Link>
           <i className="ri-arrow-right-fill"></i>
         </div>
       </div>
